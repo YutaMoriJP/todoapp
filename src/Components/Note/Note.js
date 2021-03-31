@@ -25,10 +25,10 @@ const Note = () => {
     if (!/[\w]/.test(content.value) || !/[\w]/.test(title.value)) {
       alert(
         !/[\w]/.test(content.value) && !/[\w]/.test(title.value)
-          ? "Title & Note are missing"
+          ? "Title & Note are missing."
           : !title.value.length
-          ? "Title is missing"
-          : "Note is missing"
+          ? "Title is missing."
+          : "Note is missing."
       );
       return;
     }
